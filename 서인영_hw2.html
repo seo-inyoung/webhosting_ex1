@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2017204057 서인영</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+   
+</head>
+<body>
+    <!--
+        [비밀번호 확인]
+        입력한 후 입력창에서 focusout 하면 일치/불일치 결과가 뜸.
+    -->
+    <form id="pass_form">
+           비밀번호 : <input type="password" id="input_pass" class="pass" placeholder="비밀번호 입력"><br/>
+           비밀번호 확인 : <input type="password" class="pass" id="reinput_pass" class="pass" placeholder="비밀번호 재입력"><br/>
+    </form>
+    
+    <hr>
+    <!--
+        [숫자+1]
+        숫자를 입력하고 확인버튼을 누르면 +1한 값이 출력
+    -->
+    <form id="num_plus">
+        <p>숫자만 입력하세요.</p>
+        <input type="text" id="input_num" placeholder="숫자를 입력해주세요.">
+        <input type="button" id="btn_submit" value='확인'>
+        <p>(결과창)입력한 숫자의 1이 더해집니다.</p>
+        <p id = "result"></p>
+    </form>
+
+    <!--javascrip 파일 첨부-->
+    <script src="./hw2_js.js"></script>
+</body>
+</html>
